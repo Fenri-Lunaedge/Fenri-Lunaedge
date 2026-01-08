@@ -54,7 +54,7 @@ class SeniorBIAnalyst:
                 "Cloud-native data architectures"
             ],
             "side_projects": [
-                "Ultrathink - NLP automation platform (~15k LOC)",
+                "Ultrathink - NLP automation platform (~35k LOC, Vue 3 + FastAPI)",
                 "Real-time analytics dashboards",
                 "Open-source BI tools exploration"
             ]
@@ -69,6 +69,7 @@ class SeniorBIAnalyst:
                           "MySQL/MariaDB", "PostgreSQL", "Progress OpenEdge"],
             "python_stack": ["FastAPI", "Pandas", "spaCy (NLP)", "SQLite",
                              "APScheduler", "PYGWalker", "openpyxl"],
+            "frontend_stack": ["Vue 3", "Vite", "Pinia", "Chart.js"],
             "ai_nlp": ["Multi-language NLP (PT/EN/ES)", "Entity Detection",
                        "Sentiment Analysis", "Social Media Analytics"],
             "devops": ["Git", "Server Administration", "Performance Tuning"]
@@ -78,10 +79,10 @@ class SeniorBIAnalyst:
         return {
             "ultrathink_platform": {
                 "description": "Full-stack NLP analytics automation",
-                "scale": "~15,000 lines of code",
-                "tech": "FastAPI + spaCy + Pandas + SQLite",
-                "features": ["60+ API endpoints", "17 web interfaces",
-                             "16 customizable themes", "Async processing"]
+                "scale": "~35,000 lines of code",
+                "tech": "FastAPI + Vue 3 + Vite + spaCy + Pandas",
+                "features": ["60+ API endpoints", "20 web interfaces",
+                             "33+ Vue components", "16 customizable themes", "Async processing"]
             },
             "samsung_sds": "Dashboards & ETL for LAO Public Relations",
             "teresa_perez": "4.5 years managing BI infrastructure & ETL",
@@ -122,6 +123,7 @@ print(f"{analyst.name}: {analyst.professional_summary()}")
 ### 💻 **Programming & Data Engineering**
 ![Python](https://img.shields.io/badge/Python_⭐-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL_⭐-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue_3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -213,19 +215,20 @@ mindmap
 **Full-stack platform for automated text analytics with NLP**
 
 **📌 Key Highlights:**
-- 🔥 **~15,000 lines of code** (Backend + Frontend)
+- 🔥 **~35,000 lines of code** (Backend + Frontend)
 - 🌐 **60+ REST API endpoints** (FastAPI async architecture)
-- 🖥️ **17 complete web interfaces** with 16 customizable themes
+- 🖥️ **20 complete web interfaces** with 16 customizable themes
+- 🧩 **33+ reusable Vue components** (Design System)
 - 🤖 **Multi-language NLP** (Portuguese, English, Spanish)
 - 📊 **Integrated data explorer** (PYGWalker - Tableau-style)
 - ⚡ **Async processing** with intelligent caching
 
 **🛠️ Tech Stack:**
 - **Backend:** Python, FastAPI, spaCy, Pandas, SQLite
-- **NLP Engine:** Entity detection, sentiment analysis, keyword matching
+- **NLP Engine:** Entity detection, sentiment analysis, keyword matching, irony/temporal detection
 - **ETL:** Configurable pipelines, SAP HANA/Vertica connectors
 - **Automation:** APScheduler (hourly/daily/weekly/cron)
-- **Frontend:** Vanilla JS, Chart.js (zero framework dependencies)
+- **Frontend:** Vue 3, Vite, Pinia, Chart.js (glassmorphism design)
 
 **💡 Real-world Application:**
 Built for Samsung SDS LAO Public Relations team to automate social media
